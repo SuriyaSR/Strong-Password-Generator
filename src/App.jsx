@@ -1,11 +1,11 @@
-import { useState } from 'react'
 import './App.css'
+import PasswordGenerator from './PasswordGenerator'
 
 function App() {
 
   return (
     <>
-      Sample Project to generate strong password dynamically
+      <PasswordGenerator />
     </>
   )
 }
